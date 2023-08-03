@@ -41,6 +41,17 @@ h1 {
   justify-content: space-around;
 }
 
+/*Initial barber section */
+
+.firstMid {
+  text-align: center;
+  width: 30%;
+}
+
+.barberIcon {
+  width: 22%;
+}
+
 /*Middle barber chair */
 .middleMid {
   text-align: center;
@@ -55,12 +66,12 @@ h1 {
 /*Hair styling start*/
 
 .outsideMid {
-  max-width: 30%;
+  width: 25%;
   text-align: center;
 }
 
 .hairPomade {
-  max-width: 30%;
+  max-width: 35%;
 }
 
 /* End of hair stying*/
