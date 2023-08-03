@@ -20,6 +20,13 @@ img {
   /*******************************************/
 
 /*start of first section */
+
+header,
+main {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 nav,
 ul {
   display: flex;
@@ -38,14 +45,24 @@ h1 {
 /*start of blackBox in first section*/
 
 .blackBox {
-  border: 2px black solid;
+  margin-top: 50px;
+  border: 5px solid red;
+  width: 250px;
+  padding: 30px 10px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
+.bigNums {
+  font-size: 32px;
+}
 /*Start of second section */
 
 .midSection {
+  padding: 100px 0;
   display: flex;
   justify-content: space-around;
+  line-height: 1.5;
 }
 
 /*Initial barber section */
@@ -82,3 +99,23 @@ h1 {
 }
 
 /* End of hair stying*/
+
+/*Start of momentum section */
+
+.bottomThird {
+  display: flex;
+  padding: 50px;
+  line-height: 1.5;
+  background-color: lightgrey;
+}
+
+.oneHalf {
+  width: 50%;
+}
+.bannerLine {
+  font-size: 25px;
+}
+
+.beardTrim {
+  width: 80%;
+}
