@@ -119,3 +119,15 @@ h1 {
 .beardTrim {
   width: 80%;
 }
+
+/* Barbers section */
+
+.barberSection {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+
+.barberThree {
+  width: 50%;
+}
