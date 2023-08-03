@@ -19,6 +19,7 @@ img {
   /* ADDITIONAL STYLES
   /*******************************************/
 
+/*start of first section */
 nav,
 ul {
   display: flex;
@@ -32,6 +33,12 @@ ul {
 
 h1 {
   font-size: 60px;
+}
+
+/*start of blackBox in first section*/
+
+.blackBox {
+  border: 2px black solid;
 }
 
 /*Start of second section */
