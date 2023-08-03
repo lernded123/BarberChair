@@ -1,0 +1,66 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+  /* LAYOUT
+  /*******************************************/
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+
+nav,
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  flex-basis: 70%;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+/*Start of second section */
+
+.midSection {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*Middle barber chair */
+.middleMid {
+  text-align: center;
+  width: 25%;
+}
+
+.barberChair {
+  max-width: 30%;
+}
+/*End of barber chair */
+
+/*Hair styling start*/
+
+.outsideMid {
+  max-width: 30%;
+  text-align: center;
+}
+
+.hairPomade {
+  max-width: 30%;
+}
+
+/* End of hair stying*/
