@@ -37,7 +37,7 @@ ul {
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 /*start of blackBox in first section*/
@@ -53,6 +53,10 @@ h1 {
   margin-left: 150px;
   width: 700px;
   margin-top: 200px;
+}
+
+.servicesButton {
+  margin-top: 50px;
 }
 
 .openingPic {
@@ -83,7 +87,7 @@ h1 {
   display: flex;
   justify-content: space-around;
   line-height: 1.5;
-  margin: 0 50px;
+  margin: 0;
 }
 
 /*Initial barber section */
@@ -127,11 +131,12 @@ h1 {
   display: flex;
   padding: 50px;
   line-height: 1.5;
-  background-color: lightgrey;
+  background-color: #faf0e6;
 }
 
 .oneHalf {
   width: 50%;
+  padding-left: 150px;
 }
 .bannerLine {
   font-size: 25px;
@@ -139,16 +144,28 @@ h1 {
 
 .beardTrim {
   width: 80%;
+  padding-right: 100px;
 }
 
 /* Barbers section */
 
 .barberSection {
   display: flex;
-  justify-content: space-around;
-  padding: 100px 0;
+  justify-content: space-between;
+  padding: 100px 150px;
+}
+
+.barberOne {
+  width: 95%;
+  height: auto;
+}
+
+.barberTwo {
+  width: 95%;
+  height: auto;
 }
 
 .barberThree {
-  width: 50%;
+  width: 95%;
+  height: auto;
 }
