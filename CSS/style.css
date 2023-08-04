@@ -48,6 +48,16 @@ h1 {
   display: flex;
 }
 
+.openWords {
+  position: absolute;
+  color: white;
+}
+
+.openingPic {
+  position: relative;
+  width: 1000px;
+}
+
 .blackBox {
   margin-top: 50px;
   border: 5px solid red;
@@ -55,6 +65,7 @@ h1 {
   padding: 30px 10px;
   font-size: 12px;
   line-height: 1.5;
+  position: absolute;
 }
 
 .bigNums {
