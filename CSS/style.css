@@ -169,3 +169,7 @@ h1 {
   width: 95%;
   height: auto;
 }
+
+.grid-columns {
+  display: grid;
+}
