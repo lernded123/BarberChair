@@ -52,7 +52,7 @@ h1 {
   color: white;
   margin-left: 150px;
   width: 700px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .servicesButton {
@@ -66,7 +66,7 @@ h1 {
 }
 
 .blackBox {
-  margin-top: 600px;
+  margin-top: 400px;
   width: 250px;
   padding: 30px;
   font-size: 12px;
