@@ -172,10 +172,15 @@ h1 {
 
 .grid-columns {
   display: grid;
-  gap: 1.5rem;
+  gap: 0;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
 .grid-size {
-  width: 50%;
+  width: 75%;
+}
+
+.grid-long {
+  width: 75%;
+  height: 80%;
 }
