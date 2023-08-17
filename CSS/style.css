@@ -170,6 +170,15 @@ h1 {
   height: auto;
 }
 
+.barberButton {
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  width: 250px;
+  color: white;
+  padding: 15px;
+}
+
 /* grid section */
 
 .grid-columns {
