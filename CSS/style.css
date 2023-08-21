@@ -40,6 +40,19 @@ h1 {
   font-size: 50px;
 }
 
+/*styling links */
+
+a {
+  text-decoration: none; /* Remove underlines */
+  color: black; /* Change link color */
+  font-weight: bold; /* Make the link text bold */
+  list-style: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Add underlines on hover */
+  color: #ff5733; /* Change link color on hover */
+}
 /*start of blackBox in first section*/
 
 .openingSection {
