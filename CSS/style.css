@@ -43,6 +43,8 @@ h1 {
 .header ul {
   list-style-type: none;
   padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*styling links */
@@ -56,6 +58,13 @@ a {
 a:hover {
   text-decoration: underline; /* Add underlines on hover */
   color: #ff5733; /* Change link color on hover */
+}
+
+.first-item {
+  margin-right: 80px;
+}
+.last-item {
+  margin-left: 80px; /* Adjust the margin as needed */
 }
 /*start of blackBox in first section*/
 
