@@ -40,13 +40,17 @@ h1 {
   font-size: 50px;
 }
 
+.header ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 /*styling links */
 
 a {
   text-decoration: none; /* Remove underlines */
   color: black; /* Change link color */
   font-weight: bold; /* Make the link text bold */
-  list-style: none;
 }
 
 a:hover {
