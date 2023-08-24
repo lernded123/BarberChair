@@ -60,12 +60,6 @@ a:hover {
   color: #ff5733; /* Change link color on hover */
 }
 
-.first-item {
-  margin-right: 80px;
-}
-.last-item {
-  margin-left: 80px; /* Adjust the margin as needed */
-}
 /*start of blackBox in first section*/
 
 .openingSection {
@@ -265,6 +259,12 @@ a:hover {
   object-fit: cover;
 }
 
+.gallery__item-title {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
 .gallery__item-1 {
   grid-column-start: 1;
   grid-column-end: 3;
