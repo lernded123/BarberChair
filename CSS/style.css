@@ -221,6 +221,13 @@ a:hover {
 
 /* grid section */
 
+.gallery__item-title {
+  padding-top: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
 .grid-columns {
   display: grid;
   gap: 0;
@@ -242,7 +249,7 @@ a:hover {
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
   padding-left: 250px;
-  padding-top: 200px;
+  padding-top: 50px;
   padding-bottom: 200px;
   justify-content: center;
 }
@@ -259,9 +266,6 @@ a:hover {
   object-fit: cover;
 }
 
-.gallery__item-title {
-  margin-bottom: 200px;
-}
 .gallery__item-1 {
   grid-column-start: 1;
   grid-column-end: 3;
