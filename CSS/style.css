@@ -312,12 +312,16 @@ h1 {
 
 .discountPic {
   position: relative;
+  width: 70%;
+  height: 70%;
 }
 
 .discountWords {
   position: absolute;
-  margin-left: 350px;
+  margin-left: 250px;
+  margin-top: 200px;
   color: white;
+  font-size: 25px;
 }
 .appButton {
 }
