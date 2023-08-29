@@ -311,7 +311,11 @@ h1 {
 }
 
 .discountPic {
+  position: relative;
 }
 
+.discountWords {
+  position: absolute;
+}
 .appButton {
 }
