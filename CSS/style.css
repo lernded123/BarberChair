@@ -303,3 +303,15 @@ h1 {
   grid-row-start: 3;
   grid-row-end: 9;
 }
+
+/* Discount section */
+
+.discountSection {
+  display: flex;
+}
+
+.discountPic {
+}
+
+.appButton {
+}
