@@ -266,7 +266,7 @@ h1 {
   object-fit: cover;
 }
 
-.gallery__img--short,
+/* .gallery__img--short,
 .gallery__img img {
   transition: transform 0.3s ease;
 }
@@ -274,7 +274,7 @@ h1 {
 .gallery__img--short,
 .gallery__img:hover img {
   transform: scale(1.1);
-}
+} */
 
 .gallery__item-1 {
   grid-column-start: 1;
