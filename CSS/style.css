@@ -266,6 +266,11 @@ h1 {
   object-fit: cover;
 }
 
+.gallery__img--short,
+.gallery__img img {
+  transition: transform 0.3s ease;
+}
+
 .gallery__item-1 {
   grid-column-start: 1;
   grid-column-end: 3;
