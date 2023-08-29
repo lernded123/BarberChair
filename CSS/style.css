@@ -316,6 +316,8 @@ h1 {
 
 .discountWords {
   position: absolute;
+  margin-left: 350px;
+  color: white;
 }
 .appButton {
 }
