@@ -328,4 +328,9 @@ h1 {
   font-size: 15px;
 }
 .appButton {
+  font-size: 10px;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  width: 60%;
 }
